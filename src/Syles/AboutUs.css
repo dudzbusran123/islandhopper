@@ -1,0 +1,148 @@
+.aboutUsbg{
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../img/aboutUsBg.jpg');
+    opacity: 1;
+    /* height: 200vh; */
+    width: 100%;
+    background-repeat: repeat-y;
+}
+
+*{
+    /* border: 1px solid red; */
+}
+
+.aUSecondSec p{
+    font-size: 1.3rem;
+}
+
+
+
+
+.aboutUsInside{
+    margin: 0 20%;
+    padding: 5% 0;
+}
+
+.aboutUsInside h4,p{
+    color: white;
+    text-align: left;
+}
+
+.aboutUsInside h4{
+  font-size: 4rem;
+}
+
+.specialH5{
+    margin: 0 50% 0 0;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.aboutHeader{
+    position: relative;
+    left: 10%;
+}
+
+/* BUTTON */
+
+.firstbtn{
+    color: black;
+    background-color: yellow;
+    border: 0px solid rgb(50, 190, 190);
+    height: 2.8rem;
+    width: 12.5rem;
+    border-radius: 0px;
+}
+
+.firstbtn::before{
+    background-color: gold;
+
+  }
+  
+  .firstbtn:hover, .firstbtn:focus {
+    color: black;
+  }
+
+  .btnthird{
+    position: relative;
+    left: 45%;
+  }
+
+
+
+  /* Img */
+
+
+.headerimg{
+    position: relative;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.portrait{
+    height: 50%;
+    width: 40%;
+    background: linear-gradient(to bottom, #f7b733, #fc4a1a);
+}
+
+.gradient {
+    background-image: linear-gradient(to bottom, #000000, #000000);
+  }
+
+  img.gradient {
+    background-image: linear-gradient(to bottom, #000000, #000000);
+  }
+
+
+
+
+
+
+/* DIVS */
+
+
+.aUSecondSec{
+    display: flex;
+}
+
+.aUSecondSec div{
+    flex-basis: 50%;
+}
+
+.h4special h4{
+    font-size: 3.2rem;
+}
+
+.aUSecondSec p{
+    margin: 0 3% 0 30%;
+}
+
+.thridsec div{
+    position: relative;
+   left: 5%;
+}
+
+.auImages{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 3%;
+    
+}
+
+.aboutUsbg img{
+    border-radius: 20px;
+}
+
+
+.auImages .portrait{
+    height: 50%;
+    width: 41.6%;
+   
+}
+
+.auImages .second{
+    margin-top: 5%;
+}

@@ -1,0 +1,98 @@
+
+.ccc{
+  width: 20rem;
+  height: 2.5rem;
+  border-radius: 10px;
+  border: 1px solid black;
+  text-indent: 2%;
+}
+
+.paywallBg{
+    background-image: url('../img/PaywallBg.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.expDate{
+  margin-top: .8%;
+}
+
+
+.control{
+  width: 5rem;
+  height: 2.5rem;
+  border-radius: 10px;
+  border: 1px solid black;
+  text-indent: 15%;
+  /* margin-left: 1% */
+}
+
+input[type=month]{
+  width: 9rem;
+  height: 2.5rem;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-left: 1%;
+}
+
+input[type="checkbox"]{
+  position: relative;
+  top: 2%rem;
+  
+}
+
+fieldset{
+   padding: 40px;
+   padding-bottom: 5rem;
+   border-radius: 10px;
+   border-width: 2px;
+   border-color: black;
+   border-style: solid;
+   margin: -2% 28% 10% 28%;
+   background-color: white;
+   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+   position: relative;
+   
+   
+}
+
+
+
+.headerpay{
+  font-weight: 800;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+.chName{
+  display: flex;
+  flex-wrap: wrap;
+  gap: .8rem;
+  flex-direction: row;
+  padding-top: 0rem;
+  margin-top: 1%;
+}
+
+.payPair{
+  padding-top: 1rem;
+}
+
+.date{
+  position: relative;
+  display: flex;
+  padding-top: 1rem;
+}
+
+
+.check{
+  display: flex;
+  flex-basis: 100%;
+  padding-top: 1rem;
+}
+
+.paywallButton{
+  position: absolute;
+  left: 50%;
+  top: 60%;
+}

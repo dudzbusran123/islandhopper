@@ -1,0 +1,250 @@
+.galleryWrap{
+    position: relative;
+    left: 14.5%;
+    
+}
+
+  
+
+.boxBook{
+ 
+    height: 26.5rem;
+    width: 48rem;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+    
+}
+
+.islandParent{
+    margin: 0% 5% 2%;
+    padding-top: 5%;
+}
+
+.h3firstSec{
+    font-size: 1.4rem;
+    font-weight: 1000;
+    margin-top: 4%;
+}
+
+
+.h4firstSec{
+    font-size: 1.1rem;
+    font-weight: 1000;
+}
+
+.firstoutline{
+    border: 2px solid black;
+    margin-top: .5%;
+    border-radius: 10px;
+    box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.5);
+    
+}
+
+/* Second Section */
+
+.secondSection{
+    border: 2px solid black;
+    margin-top: 2%;
+    border-radius: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.insideSection{
+    display: flex;
+    justify-content: space-between;
+
+    
+
+}
+
+.SectionRightSide{
+    flex-basis: 70%;
+    
+}
+
+.h4LeftSide{
+    flex-basis: 40%;
+    margin: 0 10% 0 2%;
+    /* font-weight: 500; */
+}
+
+.perks{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 4%;
+}
+
+
+
+.toTheTop h3{
+    font-size: 2rem;
+}
+.toTheTop span{
+  padding-top: 20px;
+  
+}
+
+
+.lastpartParent{
+    display: flex;
+   
+    justify-content: space-around;
+    gap: 25%;
+    /* column-gap: 5%; */
+    margin-bottom: 2%;
+}
+
+.lastpartParent h6{
+    font-size: 1.5rem;
+}
+
+.lastpartParent h5{
+    font-size: 1rem;
+}
+
+.lastpartParent a:hover{
+    text-decoration: underline;
+}
+
+.h3Perks{
+    margin: 5% 0 2% 0;
+}
+
+.rating{
+    display: grid;
+    justify-content: start;
+    grid-template-columns: auto auto;
+}
+
+.excellent{
+    position: relative;
+    top: 20%;
+    left: 5%;
+}
+
+.fa-circle,.fa-circle-half-stroke{
+    color: #4CBF72;
+}
+
+
+.excellent span{
+    font-weight: 600;
+}
+
+.paragrap{
+    color: black;
+}
+
+.h3PerksTop{
+    margin: 0% 0 2% 0;
+}
+
+.h4LeftSide h5{
+  font-size: 3.1rem;
+  font-weight: 650;
+}
+
+span hr{    
+    border: none;
+}
+
+a{
+    color: black;
+}
+
+.types{
+    grid-template-columns: 50% auto;
+}
+
+.SectionRightSide li{
+    list-style: none;
+}
+
+.boxSection{
+    display: flex;
+    margin: 2%;
+}
+
+.belowhr{
+    margin: 5% 2% 2% 2%;
+}
+
+.tophr{
+    margin: 1% 2% 2% 2%;
+}
+
+.secondSection h4{
+    font-size: 2rem;
+    margin: 2% 0 0 2%;
+}
+
+/* Button */
+
+button {
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.7em 2em;
+    border: 3px solid rgb(50, 190, 190);
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+    color:rgb(50, 190, 190);
+    text-decoration: none;
+    transition: 0.3s ease all;
+    z-index: 1;
+    height: 60px;
+    width: 200px;
+    position: relative;
+}
+  
+  button:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: '';
+    background-color: rgb(50, 190, 190);
+    z-index: -1;
+  }
+  
+  button:hover, button:focus {
+    color: white;
+  }
+  
+  button:hover:before, button:focus:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+  }
+  
+  button:active {
+    transform: scale(0.9);
+  }
+
+  /* ----------------------------------------------- */
+
+  /* viewAllButton */
+
+  .viewAllButton{
+    border: 3px solid rgb(0, 0, 0);
+    color:rgb(0, 0, 0);
+
+  }
+
+  .viewAllButton::before{
+    background-color: #808080;
+
+  }
+
+
+  /* ----------------------------------------------- */

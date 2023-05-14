@@ -1,0 +1,95 @@
+.galleryWrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    position: absolute;
+    left: -20%;
+    margin-top: -1%;
+    
+  }
+  
+  .galleryWrap .single {
+    width: 380px;
+    height: 230px;
+    margin-right: -40px;
+    margin-top: -25px;
+    cursor: pointer;
+    position: relative;
+    left:-13%;
+  }
+  
+  .galleryWrap .single img {
+    max-width: 100%;
+    width: 90%;
+    height: 90%;
+  }
+  
+  .galleryWrap .single img:hover {
+    transform: scale(1.02);
+  }
+  
+  .sliderWrap {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    display: grid;
+    place-items: center;
+  }
+  .sliderWrap .btnClose, .sliderWrap .btnPrev, .sliderWrap .btnNext {
+    position: fixed;
+    cursor: pointer;
+    opacity: 0.6;
+    color: #fff;
+    z-index: 9999;
+  }
+  
+  .btnNext:hover, .btnPrev:hover, .btnClose:hover {
+    opacity: 1;
+  }
+  
+  .sliderWrap .btnClose {
+    height: 2.5rem;
+    top: 40px;
+    right: 40px;
+  }
+  
+  .sliderWrap .btnPrev {
+    height: 5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 40px;
+  }
+  
+  .sliderWrap .btnNext {
+    height: 5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 40px;
+  }
+  
+  .fullScreenImage {
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    position: relative;
+    left: 7%;
+    bottom: 4%;
+
+  }
+  
+  .fullScreenImage img {
+    width: 80%;
+    height: 80%;
+    pointer-events: none;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */  
+  }

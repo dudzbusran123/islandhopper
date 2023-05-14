@@ -1,0 +1,313 @@
+body {
+  background-image: #f7f7f7;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* font-family: 'Golos Text', sans-serif; */
+  
+}
+
+.formbg{
+  background-image: url('../img/PaywallBg.jpg'); 
+  background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form{
+  margin: 4% 0 4% 0;
+}
+
+
+
+
+
+form h1{
+  color: grey;
+  margin-bottom: 3%;
+  font-weight: 800;
+  /* background: #FFFFFF;
+background: linear-gradient(to right, #FFFFFF 0%, #0A0A03 100%);
+background-clip: text;
+-webkit-text-fill-color: transparent; */
+}
+
+::placeholder{
+  position: relative;
+  left: 2%;
+}
+
+.formbg fieldset {
+  height: auto;
+  margin-left: 20%;
+  margin-right: 20%;
+  align-items: center;
+  
+  background-color: rgb(253, 253, 253);
+  /* border-color: black; */
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2% 0 2% 0;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+  
+}
+
+.flexer{
+  display: grid;
+  grid-template-columns: 480px 500px;
+  padding-left: 50px;
+  text-align: start;
+}
+label{
+  font-size: 20px;
+}
+
+.names{
+  position:relative;
+  padding-left: 50px;
+}
+
+h1 {
+  text-align: center;
+  align-items: center;
+  font-size: 54px;
+  color: rgb(50, 190, 190);
+}
+
+
+.pair {
+  display: grid;
+  grid-template-rows: 30px 50px;
+  padding-top: 20px;
+
+
+}
+
+.nameStyle{
+  display: grid;
+  grid-template-columns: 325px 325px 325px;
+}
+
+.pairLeft {
+  display: grid;
+  grid-template-rows: 30px 50px;
+  padding-top: 20px;
+}
+
+.pairOfFour{
+  display: grid;
+  grid-template-columns: 200px 150px;
+  padding-top: 60px;
+  
+  
+}
+
+.pairOfFourInside{
+  display: grid;
+  grid-template-rows: 30px 50px;
+  padding-top: 10px;
+  margin-right: 20%;
+  
+}
+
+.rightside{
+  padding-top: 200px;
+}
+
+
+
+input[type=text],
+input[type=email],
+input[type=date] {
+  width: 300px;
+  height: 40px;
+  transition: 0.2s;
+  border-radius: 8px;
+  border: 1px solid black;
+  
+  
+}
+
+select, input[type=date]{
+  text-indent: 4%;
+}
+
+input[type=text]:hover,
+input[type=email]:hover,
+input[type=date]:hover,
+select:hover,
+textarea:hover {
+  border-color: rgb(50, 190, 190);
+  box-shadow: 0 0 2px 2px rgb(50, 190, 190);
+  
+  
+  
+
+
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=date]:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 2px 2px rgb(50, 190, 190);
+  border: 2px solid rgb(50, 190, 190);
+}
+
+input[type=radio]:hover {
+  box-shadow: 0 0 2px 2px rgb(50, 190, 190);
+}
+
+select {
+  width: 180px;
+  height: 35px;
+  border-radius: 10px;
+}
+
+textarea {
+  width: 300px;
+  height: 100px;
+}
+
+.specialText input[type=text] {
+  width: 170px;
+}
+
+
+input#go:hover {
+  box-shadow: 0 0 2px 3px rgb(50, 190, 190);
+  transition: 0.5s;
+
+}
+
+form button {
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.7em 2em;
+  border: 3px solid rgb(50, 190, 190);
+  border-radius: 2px;
+  position: relative;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+  color:rgb(50, 190, 190);
+  text-decoration: none;
+  transition: 0.3s ease all;
+  z-index: 1;
+  height: 60px;
+  width: 170px;
+  position: relative;
+  left: 5rem;
+  top: 5rem;
+}
+
+button:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: '';
+  background-color: rgb(50, 190, 190);
+  z-index: -1;
+}
+
+button:hover, button:focus {
+  color: white;
+}
+
+button:hover:before, button:focus:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+
+/*  */
+
+
+
+
+
+@media screen and (max-width: 600px){
+  h1{
+    font-size: 34px;
+  }
+  body{
+    width: auto;
+  }
+  
+  label{
+    font-size: 18px;
+  }
+
+  fieldset {
+    flex-direction: column;
+    height: auto;
+    
+    padding-bottom: 80px;
+    margin-left: 3%;
+    margin-right: 3%;
+    
+    
+  }
+
+  .flexer{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pairLeft {
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    margin-left: -5rem;
+  }
+  .names{
+    margin-left: -12rem;
+  }
+
+  .nameStyle{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+  }
+
+  .pair {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    position: relative;
+    left: 5px;
+    margin-left: -5rem;
+  }
+
+  .pairOfFourInside{
+    margin-left: -5rem;
+  }
+
+  button {
+    height: 60px;
+    width: 170px;
+    position: relative;
+    left: 3rem;
+    top: 3rem;
+   
+
+    
+  }
+
+
+  
+}

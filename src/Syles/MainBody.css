@@ -1,0 +1,90 @@
+.mainBody{
+    height: 100vh;
+    background-image: url('../img/istockphoto-1271356246-612x612.jpg');
+    background-repeat: no-repeat;
+    background-size: auto 110vh;
+    background-position: center;
+    background-color: #ebecee;
+    margin: 0px 50px; 
+    box-shadow: 10px 0 4px -4px #999, -10px 0 4px -4px #999; 
+    position: relative;
+}
+
+
+  /* h1, h2, h3, h4, h5, h6 {
+    font-family: 'Golos Text', sans-serif;
+  } */
+
+h1 {
+    text-align: center;
+    align-items: center;
+    font-size: 54px;
+    color: white;
+    /* color :rgb(50, 190, 190); */
+  }
+  
+
+
+.parentMainBody{
+    background-color: #ebecee;
+    height: 130vh;
+   
+}
+
+.headerMainBody{
+    box-shadow: 10px 0 4px -4px #999, -10px 0 4px -4px #999; 
+    height: 30vh;
+    background-color: #ebecee;
+    margin: 0px 50px;
+}
+
+/* .HeaderSection{
+    position: relative;
+    top: 30%;
+    text-align: center;
+    align-items: center;
+    font-size: 64px;
+    color: #87CBB9;
+} */
+
+h2{
+    position: relative;
+    top: 30%;
+    text-align: center;
+    align-items: center;
+    font-size: 64px;
+    color: #87CBB9;
+}
+
+.siargaoCard{
+    position: absolute;
+    top: 40%;
+    left: 63%;
+   }
+
+.hundredCard{
+position: absolute;
+top: 1%;
+left: 27%;
+}
+
+.palawanCard{
+    position: absolute;
+    top: 60%;
+    left: 18%;
+}
+
+.potipotCard{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+
+.pearlCard{
+    position: absolute;
+    top: 70%;
+    left: 64%;
+}
+
+
+   
