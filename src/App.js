@@ -2,6 +2,7 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom';
 // import {NoMatch} from 'react-router-dom';
 
+
 import WSPGallery from './Components/WSPGallery';
 import IslandPage from './Components/Pages/IslandPages';
 import MainPage from './Components/Pages/MainPage';
@@ -15,6 +16,7 @@ import PearlResort from './Components/Pages/PearlResort';
 import Siargao from './Components/Pages/Siargao';
 import FormHtml from './Components/FormHtml';
 import Paywall from './Components/Pages/paywall';
+import Logonav from './Components/logonav';
 
 
 

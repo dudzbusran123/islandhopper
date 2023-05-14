@@ -2,7 +2,8 @@
 *{margin:0;padding:0;}
 
 body{
-  min-width:900px;
+  
+  /* min-width:900px; */
 }
 /* Slider */
 #slider{
@@ -388,4 +389,31 @@ html{width:100%;height:100%;}
 /* Body */
 body{
   background:#fff;
+}
+
+
+@media (max-width: 600px){
+  #slider{
+    width:100%;
+    height:47vh;
+    position:relative;
+    overflow:hidden;
+  }
+
+  .legend{
+    border:200px solid transparent;
+    border-left:300px solid rgba(52, 73, 94, .7);
+    border-bottom:0;
+    position:absolute;
+    bottom:0;
+    z-index: 2;
+  }
+
+  .h3Txt{
+    position: relative;
+    text-align: center;
+    top: 40%;
+    font-size: clamp(1rem, -0.875rem + 8.333vw, 3.5rem);
+    color: white;
+  }
 }

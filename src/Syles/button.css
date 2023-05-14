@@ -19,7 +19,7 @@
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 2rem;
     color: var(--color-text);
     background: var(--color-background);
     transition: 1s;
@@ -107,4 +107,36 @@
       outline: 0.2em solid var(--color-background);
       outline-offset: 0;
     }
+  }
+
+  @media(max-width:600px) {
+    .btn-conteiner {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      --color-text: #ffffff;
+      --color-background: #ff135a;
+      --color-outline: #ff145b80;
+      --color-shadow: #00000080;
+      position: relative;
+      top: 53%;
+      height: 3rem;
+    }
+
+    .btn-contents {
+
+      font-size: 1rem;
+    }
+
+    .btn-contents .icon-arrow {
+      transform: scale(0.4);
+    }
+
+    .icon-arrow {
+      width: 10px;
+      margin-left: 15px;
+      position: relative;
+      top: 6%;
+    }
+    
   }
