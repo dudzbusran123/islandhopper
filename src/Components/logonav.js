@@ -11,7 +11,7 @@ const Logonav = () =>
 <img src={logo} alt="Nothing"></img>
     <h1 className="centerName">ISLANDHOPPER</h1>
     <nav class="navMenu">
-    <NavLink to='/'>Home</NavLink>
+    <NavLink to='/islandhopper'>Home</NavLink>
     <NavLink to='/contact'>Contact us</NavLink>
     <NavLink to='/about'>About us</NavLink>
     <div class="dot"></div>
