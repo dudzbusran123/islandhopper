@@ -28,7 +28,7 @@ function App() {
       
     
     <Routes>
-      <Route path='/' element={<MainPage/>}/>
+      <Route path='/index' element={<MainPage/>}/>
       <Route path='contact' element={<ContactUs></ContactUs>}/>
       <Route path='about' element ={<AboutUs></AboutUs>}/>
       <Route path='palawan' element ={<AstoriaPawalan></AstoriaPawalan>}/>
