@@ -27,7 +27,7 @@ const Logonav = () => {
 //     setMenuVisibility(false);
 //   };
     
-const [isMenuVisible, setMenuVisibility] = useState(true);
+const [isMenuVisible, setMenuVisibility] = useState(false);
 
   const showMenu = () => {
     setMenuVisibility(true);
@@ -37,9 +37,20 @@ const [isMenuVisible, setMenuVisibility] = useState(true);
     setMenuVisibility(false);
   };
 
-  const navLinksStyle = {
-    right: isMenuVisible ? "0" : "-200px"
-  };
+  
+
+  
+  let navLinksStyle = {};
+
+  if (window.matchMedia("(max-width: 600px)").matches) {
+     navLinksStyle = {
+      display: isMenuVisible ? "block" : "none",
+      right: isMenuVisible ? "0" : "-200px"
+    };
+  
+  }
+
+
 
 return(
     <section className="navParent">
@@ -47,6 +58,7 @@ return(
 <div className="controler">
 <img src={logo} alt="Nothing"></img>
     <h1 className="centerName">ISLANDHOPPER</h1>
+    
     <nav className="navMenu">
     <div className="nav-links" style={navLinksStyle}>
                 <i className="fa fa-times" onClick={hideMenu}></i>
@@ -74,7 +86,7 @@ export default Logonav;
 
 
 
-{/* <nav className="navMenu">
+/* <nav className="navMenu">
     <div className="nav-links" style={navLinksStyle}>
                 <i class="fa fa-times" onClick={hideMenu}></i>
                 <ul>
@@ -85,4 +97,4 @@ export default Logonav;
     </ul>
             </div>
             <i class="fa fa-bars" onClick={showMenu}></i>
-    </nav> */}
+    </nav> */

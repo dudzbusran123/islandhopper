@@ -19,7 +19,8 @@ const MainBody = () =>{
             </div>
      <section className="mainBody">
         {/* Siargao */}
-    <Link to='/siargao'><div className="siargaoCard">
+        <div className="cardParent">
+    <Link to='/siargao'><div className="siargaoCard mediaCard">
      <CardImage 
      imgSrc={siargao}
      title="NAY PALAD HIDEAWAY"
@@ -27,7 +28,7 @@ const MainBody = () =>{
      </div></Link>
 
      {/* HundredIsland */}
-     <Link to='/hundred'><div className="hundredCard">
+     <Link to='/hundred'><div className="hundredCard mediaCard">
      <CardImage 
      imgSrc={hundred}
      title="Hundred Island"
@@ -37,7 +38,7 @@ const MainBody = () =>{
 
      {/* Palawan */}
 
-     <Link to='/palawan'><div className="palawanCard">
+     <Link to='/palawan'><div className="palawanCard mediaCard">
      <CardImage 
      imgSrc={palawan}
      title="Astoria Palawan Resort"
@@ -46,7 +47,7 @@ const MainBody = () =>{
 
      {/* Potipot */}
 
-     <Link to='/potipot'><div className="potipotCard">
+     <Link to='/potipot'><div className="potipotCard mediaCard">
      <CardImage 
      imgSrc={potipot}
      title="Potipot Resort"
@@ -55,12 +56,13 @@ const MainBody = () =>{
 
      {/* Pearl */}
 
-     <Link to='/pearl'><div className="pearlCard">
+     <Link to='/pearl'><div className="pearlCard mediaCard">
      <CardImage 
      imgSrc={pearl}
      title="Pearl Resort"
      location= "Located at Mindanao"></CardImage>
      </div></Link>
+     </div>
      
      </section>
      

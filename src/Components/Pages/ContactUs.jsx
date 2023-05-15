@@ -17,7 +17,7 @@ const ContactUs = () =>{
         <div>
         <h5 className="ContactHeader">Contact us!</h5>
         <div className="frameContact">
-        <div className="frame" dangerouslySetInnerHTML={{__html: '<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfMN-S59VJkVDiMGbFqiH3YDKseb2b3Fn5O8GAmhempcyVWtA/viewform?embedded=true" width="800" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>'}}></div>
+        <div className="frame" dangerouslySetInnerHTML={{__html: '<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfMN-S59VJkVDiMGbFqiH3YDKseb2b3Fn5O8GAmhempcyVWtA/viewform?embedded=true" width="800" height="700px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>'}}></div>
         </div>
         </div>
 

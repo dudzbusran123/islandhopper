@@ -72,7 +72,7 @@ const IslandPage = ({title,address,contact,email,textNiSya,galleryImages,reviews
                     <h4>You want to relax and unwind on the Island?</h4>
                     <br></br>
                     <Link to="/booking">
-                    <button> Book Now </button></Link>
+                    <button className="firstButton"> Book Now </button></Link>
                     <br></br>
                     <br></br>
                     <br></br>

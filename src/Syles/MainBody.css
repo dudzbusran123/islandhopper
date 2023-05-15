@@ -11,6 +11,8 @@
 }
 
 
+
+
   /* h1, h2, h3, h4, h5, h6 {
     font-family: 'Golos Text', sans-serif;
   } */
@@ -28,6 +30,8 @@ h1 {
 .parentMainBody{
     background-color: #ebecee;
     height: 130vh;
+    width: 100%;
+    position: relative;
    
 }
 
@@ -52,7 +56,7 @@ h2{
     top: 30%;
     text-align: center;
     align-items: center;
-    font-size: 64px;
+    font-size: clamp(1rem, 0.2rem + 4vw, 5rem);
     color: #87CBB9;
 }
 
@@ -86,5 +90,48 @@ left: 27%;
     left: 64%;
 }
 
+
+@media (max-width: 600px){
+    
+
+    .siargaoCard,
+  .hundredCard,
+  .palawanCard,
+  .potipotCard,
+  .pearlCard {
+    position: static;
+    /* Reset position to static for flexbox */
+  }
+
+       
+
+       .cardParent{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+       }
+
+       .headerMainBody{
+        box-shadow: 10px 0 4px -4px #999, -10px 0 4px -4px #999; 
+        height: 10vh;
+        background-color: #ebecee;
+        margin: 0px 50px;
+    }
+
+    .mainBody{
+        height: 160vh;
+    }
+
+    .parentMainBody{
+        background-color: #ebecee;
+        height: 170vh;
+
+    }
+    
+   
+}
 
    

@@ -248,3 +248,79 @@ button {
 
 
   /* ----------------------------------------------- */
+
+
+
+  @media(max-width:600px){
+
+    .toTheTop h3{
+        font-size: 1.7rem;
+    }
+
+    .toTheTop span{
+        font-size: .9rem;
+    }
+    .boxBook{
+ 
+        height: 23.5rem;
+        width: 48rem;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+        
+    }
+
+    .h3firstSec{
+        font-size: 1.2rem;
+        font-weight: 1000;
+        margin-top: 4%;
+    }
+    
+    
+    .h4firstSec{
+        font-size: .8rem;
+        font-weight: 1000;
+    }
+
+    h4{
+        font-size: .9rem;
+    }
+
+    .viewAllButton{
+        border: 3px solid rgb(0, 0, 0);
+        color:rgb(0, 0, 0);
+        top: -3%;
+        left: 2%;
+        font-size: 1rem;
+        height: 3rem;
+        width: 10.5rem;
+      }
+
+      .firstButton{
+        top: 3%;
+        left: 2%;
+        font-size: .9rem;
+        height: 3rem;
+        width: 10.5rem;
+      }
+
+      .h4LeftSide span{
+        font-size: .7rem;
+      }
+
+      .h4LeftSide h5{
+        font-size: 3.5rem;
+      }
+
+      .excellent{
+        position: relative;
+        top: 10%;
+        left: 5%;
+    }
+
+    .lastpartParent h5{
+        position: relative;
+        left: 10%;
+    }
+
+  }
