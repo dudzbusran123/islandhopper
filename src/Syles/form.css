@@ -239,7 +239,7 @@ button:active {
 
 
 
-@media screen and (max-width: 600px){
+@media (max-width: 600px){
   h1{
     font-size: 34px;
   }
@@ -251,14 +251,19 @@ button:active {
     font-size: 18px;
   }
 
-  fieldset {
-    flex-direction: column;
+  .formbg fieldset {
     height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
     
-    padding-bottom: 80px;
-    margin-left: 3%;
-    margin-right: 3%;
-    
+    background-color: rgb(253, 253, 253);
+    /* border-color: black; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2% 0 15% 0;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
     
   }
 
@@ -272,11 +277,9 @@ button:active {
     display: flex;
     flex-direction: column;
     padding-top: 15px;
-    margin-left: -5rem;
+    
   }
-  .names{
-    margin-left: -12rem;
-  }
+
 
   .nameStyle{
     display: flex;
@@ -290,18 +293,16 @@ button:active {
     padding-top: 15px;
     position: relative;
     left: 5px;
-    margin-left: -5rem;
+
   }
 
-  .pairOfFourInside{
-    margin-left: -5rem;
-  }
+ 
 
-  button {
+  form button {
     height: 60px;
     width: 170px;
     position: relative;
-    left: 3rem;
+    left: 28%;
     top: 3rem;
    
 

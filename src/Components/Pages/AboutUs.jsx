@@ -52,6 +52,7 @@ const AboutUs = () => {
           that you just can't miss. </p>
           <br/>
           <button className='firstbtn btnthird'>read more</button>
+          <div className='brghost'><br/><br/><br/></div>
           </div>
           <img className='portrait' src={pic2}/>
         </div>
@@ -60,6 +61,7 @@ const AboutUs = () => {
 
         <div className='aUSecondSec thridsec'>
         <img className='portrait' src={pic3}/>
+        <div className='brghost'><br/><br/><br/></div>
             <div>
           <h4>What We Do</h4>
           <br></br>
@@ -96,7 +98,9 @@ const AboutUs = () => {
          <br/><br/><br/><br/>
 
         <div className='aUSecondSec thridsec h4special'>
+          
         <img className='portrait' src={pic8}/>
+        <div className='brghost'><br/><br/><br/></div>
             <div>
           <h4>Why You Should Go</h4>
           <br></br>

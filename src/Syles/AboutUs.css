@@ -4,12 +4,23 @@
     url('../img/aboutUsBg.jpg');
     opacity: 1;
     /* height: 200vh; */
-    width: 100%;
+    
     background-repeat: repeat-y;
 }
 
 *{
     /* border: 1px solid red; */
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.AboutUsPage{
+    
+    width: 100vw;
+    /* overflow-x: hidden; */
 }
 
 .aUSecondSec p{
@@ -22,6 +33,7 @@
 .aboutUsInside{
     margin: 0 20%;
     padding: 5% 0;
+    /* width: 100%; */
 }
 
 .aboutUsInside h4,p{
@@ -145,4 +157,77 @@
 
 .auImages .second{
     margin-top: 5%;
+}
+
+.brghost{
+    display: none;
+}
+
+@media(max-width: 600px){
+
+    .aboutUsInside h4{
+        font-size: 2.8rem;
+      }
+
+      .specialH5{
+        margin: 0 40% 0 0;
+        color: white;
+        font-size: 1.1rem;
+    }
+
+    .firstbtn{
+        color: black;
+        background-color: yellow;
+        border: 0px solid rgb(50, 190, 190);
+        height: 2.7 rem;
+        width: 10rem;
+        border-radius: 0px;
+        padding: 0 10px;
+        
+    }
+
+    .btnfirst{
+        top: 20%;
+        left: 0%;
+    }
+
+    .headerimg{
+        position: relative;
+        left: -28%;
+        height: 15rem;
+        width: 35rem;
+    }
+
+    .aUSecondSec{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .portrait{
+        height: 1%;
+        width: 100%;
+        background: linear-gradient(to bottom, #f7b733, #fc4a1a);
+    }
+
+    *{
+        /* border: 1px solid red; */
+    }
+
+    .brghost{
+        display: block;
+    }
+    .btnthird{
+        position: relative;
+        left: 32%;
+        top: -20%;
+      }
+
+      .auImages{
+        display: none;
+      }
+
+      .AboutUsPage{
+        overflow-x: hidden;
+      }
+
 }

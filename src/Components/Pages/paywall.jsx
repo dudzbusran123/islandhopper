@@ -2,6 +2,7 @@ import React from 'react';
 import '../../Syles/paywall.css';
 import Footer from '../footer';
 import Logonav from '../logonav';
+import pic1 from '../../img/carcard.jpg';
 
 const Paywall = () => {
     return (
@@ -26,6 +27,9 @@ const Paywall = () => {
       <div className="chName">
       <div className="payPair">
       <label for="ccNumber">Credit Card Number:</label>&nbsp;
+      <br/>
+      <img className='cardsImg' src={pic1}/>
+      <br/> <br/>
       <input type="number" id="ccNumber" name="ccNumber" placeholder="1234 1234 1234 1234"
       className="ccc"/>
       </div>

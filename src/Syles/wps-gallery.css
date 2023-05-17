@@ -112,5 +112,43 @@
       left:-13%;
     }
 
+    .sliderWrap .btnClose {
+      height: 2rem;
+      top: 40px;
+      right: 40px;
+    }
+    
+    .sliderWrap .btnPrev {
+      height: 2rem;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 40px;
+    }
+    
+    .sliderWrap .btnNext {
+      height: 2rem;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 40px;
+    }
+
+    .fullScreenImage img {
+      width: 80%;
+      height: 35%;
+      pointer-events: none;
+      -webkit-user-select: none; /* Safari */
+      -ms-user-select: none; /* IE 10 and IE 11 */
+      user-select: none; /* Standard syntax */  
+    }
+
+    .fullScreenImage {
+      width: calc(100% - 40px);
+      height: calc(100% - 40px);
+      position: relative;
+      left: 4.5%;
+      bottom: -10%;
+  
+    }
+
 
   }
