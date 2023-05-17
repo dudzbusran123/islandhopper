@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/islandhopper/static/css/main.d7ff817e.css",
-    "main.js": "/islandhopper/static/js/main.4235eda2.js",
+    "main.css": "/islandhopper/static/css/main.ba4c8818.css",
+    "main.js": "/islandhopper/static/js/main.a5c67410.js",
     "static/js/787.d859aa23.chunk.js": "/islandhopper/static/js/787.d859aa23.chunk.js",
     "static/media/Potipot3.jpg": "/islandhopper/static/media/Potipot3.d4c421b7b51c4ea14e58.jpg",
     "static/media/PEARL-5.jpeg": "/islandhopper/static/media/PEARL-5.24bf889ba0c34e81c5af.jpeg",
@@ -55,16 +55,17 @@
     "static/media/3_siargao.jpg": "/islandhopper/static/media/3_siargao.2c7c2069bb2d9f41b46c.jpg",
     "static/media/fa-regular-400.ttf": "/islandhopper/static/media/fa-regular-400.d87474231f4192884802.ttf",
     "static/media/fa-regular-400.woff2": "/islandhopper/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/carcard.jpg": "/islandhopper/static/media/carcard.92722b76a44d1573d8d6.jpg",
     "static/media/istockphoto-1271356246-612x612.jpg": "/islandhopper/static/media/istockphoto-1271356246-612x612.ea16940beacd16448dce.jpg",
     "static/media/fa-v4compatibility.ttf": "/islandhopper/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/fa-v4compatibility.woff2": "/islandhopper/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/islandhopper/index.html",
-    "main.d7ff817e.css.map": "/islandhopper/static/css/main.d7ff817e.css.map",
-    "main.4235eda2.js.map": "/islandhopper/static/js/main.4235eda2.js.map",
+    "main.ba4c8818.css.map": "/islandhopper/static/css/main.ba4c8818.css.map",
+    "main.a5c67410.js.map": "/islandhopper/static/js/main.a5c67410.js.map",
     "787.d859aa23.chunk.js.map": "/islandhopper/static/js/787.d859aa23.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7ff817e.css",
-    "static/js/main.4235eda2.js"
+    "static/css/main.ba4c8818.css",
+    "static/js/main.a5c67410.js"
   ]
 }
