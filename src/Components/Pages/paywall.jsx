@@ -3,23 +3,49 @@ import '../../Syles/paywall.css';
 import Footer from '../footer';
 import Logonav from '../logonav';
 import pic1 from '../../img/carcard.jpg';
+import FormDataContext from '../FormDataContext';
+
 
 const Paywall = () => {
+
+
+
+
+  // const firstNamepay = document.getElementById('firstNamepay').value;
+  // const lastNamepay = document.getElementById('lastNamepay').value;
+  // const ccNumber = document.getElementById('ccNumber').value;
+  // const cvc = document.getElementById('cvc').value;
+  // const expDate = document.getElementById('expDate').value;
+
+  // const combineData ={
+  //   ...formData,
+  //   firstNamepay,
+  //   lastNamepay,
+  //   ccNumber,
+  //   cvc,
+  //   expDate
+  // }
+    
+
+
+
+
     return (
         <div className='paywallBg'>
 
-            <Logonav></Logonav>
+            {/* <Logonav></Logonav> */}
+            {/* <hr className='hrisiya'/> */}
             <h1 className='headerpay'>Payment details</h1>
-  <form action="paywall.php" method="post">
-    <fieldset>
+  
+      {/* <input type='hidden' name='firstname' value={}></input> */}
 
       
 
       <div className="payPair">
       <label for="name">Card Holder Name:</label>
       <div className="chName">
-      <input type="text" id="firstName" name="firstName" placeholder="First Name" className="form-control"/>
-      <input type="text" id="lastName" name="lastName" placeholder="Last Name"
+      <input type="text" id="firstNamepay" name="firstNamepay" placeholder="First Name" className="form-control"/>
+      <input type="text" id="lastNamepay" name="lastNamepay" placeholder="Last Name"
       className="form-control"/>
       </div>
       </div>
@@ -60,9 +86,8 @@ const Paywall = () => {
     <button  type="submit" className='paywallButton'>Pay</button>
 
 
-    </fieldset>
-  </form>
-  <Footer></Footer>
+    
+  {/* <Footer></Footer> */}
         </div>
     );
 };

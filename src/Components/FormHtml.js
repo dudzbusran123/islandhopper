@@ -1,18 +1,82 @@
-import React from "react";
+import React from 'react';
+
 import '../Syles/form.css';
 import Logonav from "./logonav";
 import Footer from "./footer";
-import { useNavigate } from "react-router-dom";
+import Paywall from './Pages/paywall';
 
-function FormHtml() {
 
-   const navigate = useNavigate()
+
+
+const FormHtml = () => {
+
+//    const navigate = useNavigate()
+//   //  const { setFormData } = useContext(FormDataContext);
+
+
+
+
+//   const handleNextPage = (event) => {
+
+
+//   const firstName = document.getElementById('firstName').value;
+//   const lastName = document.getElementById('lastName').value;
+//   const middleName = document.getElementById('middleName').value;
+//   const male = document.getElementById('male').value;
+//   const female = document.getElementById('female').value;
+//   const citizen = document.getElementById('citizen').value;
+//   const birthDate = document.getElementById('birthDate').value;
+//   const religion = document.getElementById('religion').value;
+//   const status = document.getElementById('status').value;
+//   const address = document.getElementById('address').value;
+//   const from = document.getElementById('from').value;
+//   const destination = document.getElementById('destination').value;
+//   const zipCode = document.getElementById('zipCode').value;
+//   const emerHolderName = document.getElementById('emerHolderName').value;
+//   const mobile = document.getElementById('mobile').value;
+//   const email = document.getElementById('email').value;
+//   const accomodation = document.getElementById('accomodation').value;
+
+
+//   const setFormData = {
+//     firstName,
+//     lastName,
+//     middleName,
+//     male,
+//     female,
+//     citizen,
+//     birthDate,
+//     religion,
+//     status,
+//     address,
+//     from,
+//     destination,
+//     zipCode,
+//     emerHolderName,
+//     mobile,
+//     email,
+//     accomodation
+//   };
+
+//   console.log(firstName)
+
+//   //  navigate('/paywaller');
+//    this.props.history.push({
+//     pathname: '/paywaller',
+//       state: setFormData // your data array of objects
+//   })
+
+// };
+
+
+
+
 
   return (
     <div className="formbg">
     <Logonav></Logonav>
   
-  <form action="bookProcess.php" method="post">
+  <form action='bookProcess.php' method='POST'>
     <h1>Booking Form</h1>
     <fieldset>
       
@@ -31,10 +95,10 @@ function FormHtml() {
         <div class="pair">
           <label for="gender">Gender :</label>
           <div>
-            <input type="radio" name="gender" value="Male"/>&nbsp;
+            <input type="radio" name="gender" value="Male" id='male' />&nbsp;
             <label for="male">Male</label>&nbsp;&nbsp;
 
-            <input type="radio" name="gender" value="Female"/>&nbsp;
+            <input type="radio" name="gender" value="Female" id='female'/>&nbsp;
             <label for="female">Female</label>
           </div>
         </div>
@@ -87,7 +151,7 @@ function FormHtml() {
 
         <div class="pairOfFourInside">
           <label for="destination">Destination :</label>
-          <select id="destination" name="goingTo" >
+          <select id="destination" name="destination" >
             <option value="">-To-</option>
             <option value="Nay palad hideway">Nay palad hideway</option>
             <option value="Pearl Resort">Pearl Resort</option>
@@ -123,7 +187,7 @@ function FormHtml() {
         </div>
         <div class="pair">
           <label for="mobile">Mobile Number:</label>
-          <input type="text" name="mobile" />
+          <input type="text" name="mobile" id='mobile' />
         </div>
         <div class="pair">
           <label for="email">Email :</label>
@@ -132,9 +196,12 @@ function FormHtml() {
         <div class="pair">
           <label for="accomodation">Accomodation :</label>
           <textarea id="accomodation" name="accomodation" ></textarea>
+          
         </div>
-
-        <button type="submit" onClick={() => navigate('/paywall')}> Book </button>
+        
+        {/* onClick={() => navigate('/paywaller')} */}
+        {/* <button type="submit"> Book </button> */}
+        <Paywall className = "payWall"></Paywall>
       </div>
     </div>
     </fieldset>

@@ -17,6 +17,8 @@ import Siargao from './Components/Pages/Siargao';
 import FormHtml from './Components/FormHtml';
 import Paywall from './Components/Pages/paywall';
 import Logonav from './Components/logonav';
+import FormDataContext from './Components/FormDataContext';
+
 
 
 
@@ -27,10 +29,10 @@ function App() {
   return (
     <div>
       {/* <IslandPage></IslandPage> */}
-      
-    
+      {/* //"homepage": "http://dudzbusran123.github.io/islandhopper", */}
+    {/* <FormDataContext.Provider> */}
     <Routes>
-      <Route path='/islandhopper' element={<MainPage/>}/>
+      <Route path='/' element={<MainPage/>}/>
       <Route path='contact' element={<ContactUs></ContactUs>}/>
       <Route path='about' element ={<AboutUs></AboutUs>}/>
       <Route path='palawan' element ={<AstoriaPawalan></AstoriaPawalan>}/>
@@ -39,9 +41,10 @@ function App() {
       <Route path='pearl' element={<PearlResort></PearlResort>}/>
       <Route path='siargao' element={<Siargao></Siargao>}/>
       <Route path='booking' element={<FormHtml></FormHtml>}/>
-      <Route path='paywall' element={<Paywall></Paywall>}/>
+      <Route path='paywaller' element={<Paywall></Paywall>}/>
       {/* <Route path='*' element={<NoMatch></NoMatch>}/> */}
     </Routes>
+    {/* </FormDataContext.Provider> */}
     
     
 

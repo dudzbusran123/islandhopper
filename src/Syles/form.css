@@ -36,7 +36,8 @@ background-clip: text;
 }
 
 .formbg fieldset {
-  height: auto;
+  /* height: auto; */
+  
   margin-left: 20%;
   margin-right: 20%;
   align-items: center;
@@ -45,7 +46,7 @@ background-clip: text;
   /* border-color: black; */
   display: flex;
   flex-wrap: wrap;
-  padding: 2% 0 2% 0;
+  padding: 2% 0 10% 0;
   border-radius: 20px;
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
   
@@ -231,6 +232,16 @@ button:hover:before, button:focus:before {
 button:active {
   transform: scale(0.9);
 }
+
+.paywallBg{
+  position: relative;
+  text-align: center;
+  top: 13%;
+  right: 70%;
+}
+
+
+
 
 
 /*  */

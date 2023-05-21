@@ -63,7 +63,7 @@ return(
     <div className="nav-links" style={navLinksStyle}>
                 <i className="fa fa-times" onClick={hideMenu}></i>
                 <ul>
-                    <li><NavLink to='/islandhopper'>Home</NavLink></li>
+                    <li><NavLink to='/'>Home</NavLink></li>
                     <li><NavLink to='/contact'>Contact us</NavLink></li>
                     <li><NavLink to='/about'>About us</NavLink></li>
                     <div className="dot"></div>

@@ -7,11 +7,19 @@
   text-indent: 2%;
 }
 
-.paywallBg{
+/* .paywallBg{
     background-image: url('../img/PaywallBg.jpg'); 
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+} */
+
+.payPair{
+  text-align: left;
+}
+
+*{
+  /* border: 1px solid red; */
 }
 
 .expDate{
@@ -91,10 +99,12 @@ input[type="checkbox"]{
   padding-top: 1rem;
 }
 
+
+
 .paywallButton{
   position: absolute;
-  left: 50%;
-  top: 60%;
+  left: 90%;
+  top: 80%;
 }
 
 .cardsImg{
@@ -104,17 +114,10 @@ input[type="checkbox"]{
 }
 
 @media(max-width: 600px){
-  .paywallBg fieldset{
-    padding: 40px;
-    padding-bottom: 4rem;
-    border-radius: 10px;
-    border-width: 2px;
-    border-color: black;
-    border-style: solid;
-    margin: -2% 10% 10% 10%;
-    background-color: white;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
-    position: relative;
+  .paywallBg{
+
+
+    position: static;
     
     
  }
@@ -122,7 +125,7 @@ input[type="checkbox"]{
  .paywallButton{
   position: static;
   position: relative;
-  left: 25%;
+  left: -5%;
   margin-top: 10%;
 }
 
@@ -132,5 +135,9 @@ input[type="checkbox"]{
   position: relative;
   left: 2%;
   top: 12%;
+}
+
+.headerpay{
+  left: -5%;
 }
 }
